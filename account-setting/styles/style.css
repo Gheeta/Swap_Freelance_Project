@@ -1,0 +1,80 @@
+.account-setting-form {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.location-input {
+}
+
+.input-group {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px !important;
+}
+
+.location-icon {
+  position: absolute;
+  right: 10px;
+  align-self: center;
+  color: #c80620;
+}
+.form-group {
+  margin-bottom: 37px !important;
+}
+label {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+
+  margin-bottom: 16px !important;
+}
+input {
+  font-size: 2.2rem !important;
+  color: #000 !important;
+}
+
+.custom-select {
+  position: relative;
+  font-size: 2.2rem;
+  color: #c80620;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA7klEQVRIie2RPQrCQBCF32jcgJ1FCgXRgJ0HEBtPoHZ6BBvPkyIewZS5QRDUXjvB0iInSAyOhQqbsBt/wG6/bmd25723AxgMhhxb0Qk39Xbr1/cRes5OdNdyrSIfCDS2suphV3MX3w7fC3dm29kRwEwr8KQBYv/TNC/XDF4zwyn2VQIAPkujc60VYKIpgItUUqbRuSZCTKB53miBCD1HiMwruiJCDKbl48Ce4juCNLWWI5ziUoEXW9udELMPoKm7IwsP0nOg6mt3MEzO4TW99UFYlcwPksTq64YDJQlkimneuf5aAMjtBqq/Nhj+xx2ltWDhBEyL7wAAAABJRU5ErkJggg==");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+}
+
+.image-container {
+  position: relative;
+}
+.camera-icon {
+  background-color: #c80620;
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: 20px;
+  right: 6px;
+
+  font-size: 1.7rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .account-setting-form {
+    width: 70%;
+  }
+  .input-group {
+    width: 70%;
+  }
+}

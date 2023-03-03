@@ -1,0 +1,53 @@
+.trade-container {
+  background-color: #6666660e;
+  padding: 20px 0 40px 0;
+  height: auto;
+  margin-bottom: 40px;
+}
+.user-image {
+  width: 60px;
+  height: 60px;
+}
+
+.user-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.request-line {
+  margin-top: auto;
+  height: 500px;
+  width: 2px;
+  background-color: #666666;
+}
+.request-card {
+  border-radius: 12px !important;
+  border: none !important;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 992px) {
+  .request-card {
+    width: 220px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .request-card {
+    width: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .request-card {
+    width: auto !important;
+  }
+  .request-line {
+    margin-top: auto;
+    height: 2px;
+    width: 80%;
+    background-color: #666666;
+    margin: 20px auto;
+  }
+}

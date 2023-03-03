@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62%;
+  overflow-x: hidden;
+}
+p {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 46%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 35%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  color: #000000;
+  overflow: hidden;
+  height: 100vh;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-right: 10px;
+}
+ul li {
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+ul li:active {
+  transform: translateX(10px);
+}
+ul li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+ul li a:hover,
+ul li a:active {
+  color: #c80620;
+}
+.active {
+  color: #c80620;
+}
+
+ul li a span {
+  position: relative;
+  display: inline-block;
+  font-size: 2.2rem;
+  transition: all 0.3s;
+}
+ul li a span:nth-child(1) {
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  color: black;
+}
+ul li:hover a span:nth-child(1) {
+  color: #c80620;
+}
+ul li a span:nth-child(3) {
+  opacity: 0;
+}
+ul li:active a span:nth-child(3) {
+  opacity: 1;
+}
+
+/* span {
+  color: #c80620;
+} */
+
+/* layout style */
+
+/* end layout style */
+
+main {
+}
+
+.scroll {
+  direction: rtl;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+  padding: 0 15px;
+  /* padding-left: 30px;
+  margin-left: 30px; */
+}
+.scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #c80620;
+}
+
+.scroll > div {
+  direction: ltr;
+  /* padding-left: 41px; */
+  /* margin-top: 50px; */
+}
+.account-title {
+  font-size: 4rem;
+  color: #000000;
+  margin: 20px 0;
+}
+
+.red-text {
+  color: #c80620;
+}
+
+.custom-link {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #c80620;
+
+  text-decoration: none;
+}
+
+.custom-button {
+  padding: 10px 40px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #c80620;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.cancle-btn {
+  background-color: white;
+  color: #c80620;
+
+  border: 1px solid #c80620;
+}

@@ -1,0 +1,62 @@
+
+
+/* start notification */
+.crd-notification {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  margin-bottom: 30px;
+}
+.title-card {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+.img {
+  width: 50px;
+}
+.name {
+  color: #c80620;
+  /* padding-top: 5px; */
+  font-size: 2.2rem;
+}
+.date {
+  /* color: #666666; */
+  font-size: 1.8rem;
+}
+
+.txt {
+  font-size: 1.8rem;
+  font-weight: solid;
+}
+
+/* end notification */
+
+.notification-info {
+  margin-left: 10px;
+}
+
+.notification-info-reqest {
+  margin-right: 20px;
+  color: #66aec9;
+  font-size: 1.8rem;
+}
+.notification-info-view {
+  color: #c80620;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.notification-info-action {
+  /* margin-top: 25px; */
+}
+
+@media screen and (min-width: 992px) {
+  .notification-info {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .notification-info-view {
+    margin-top: 1.7rem;
+  }
+}

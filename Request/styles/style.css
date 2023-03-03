@@ -1,0 +1,106 @@
+
+.cards-request{
+  /* width: 938px; */
+  background-color: rgba(198, 197, 197, 0.093);
+  padding: 4.1rem 2.6rem 8.7rem 2.6rem;
+  border-radius: 20px;
+  /* opacity: 0.03999999910593033; */
+}
+.your-product{
+  margin-bottom: 2.6rem;
+  font-size: 2.8rem;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-right: 2.6rem;
+}
+.card-title {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #666666;
+}
+.icon {
+  color: #c80620;
+  padding-right: 8px;
+}
+.txt-icon{
+  font-size: 2rem; 
+  color: #666666;
+}
+
+.cutton-link {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #c80620;
+
+  text-decoration: none;
+}
+/* -------ahmed card */
+.ahmed-mostafa{
+  background-color: #fff;
+}
+.img {
+  width: 50px;
+}
+.name {
+  color: #c80620;
+  /* padding-top: 5px; */
+  font-size: 2.2rem;
+}
+.date {
+  /* color: #666666; */
+  font-size: 1.8rem;
+}
+
+.txt {
+  font-size: 1.8rem;
+  font-weight: solid ;
+  
+}
+
+/* end notification */
+
+.notification-info {
+  margin-right: auto;
+}
+
+.notification-info-reqest {
+  margin-right: 66px;
+  color: #66aec9;
+  font-size: 1.8rem;
+}
+.notification-info-view {
+  color: #c80620;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.notification-info-action {
+  /* margin-top: 25px; */
+}
+
+@media screen and (min-width: 992px) {
+  .notification-info {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .notification-info-view{
+    margin-top: 1.7rem;
+  }
+}
+
+--------
+.ahmed-card img{
+  width: 6.1rem;
+  height: 6.1rem;
+}
+
+/* --------ahmed card---- */
